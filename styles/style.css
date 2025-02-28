@@ -1,0 +1,162 @@
+.topnav{
+    background-color: purple;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.topnav a:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+.topnav a.split{
+    float: right;
+    color: white;
+    background-color: orange;
+}
+
+
+.header{
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    /* background-color: grey; */
+    background-image: url(/html/abstract-dark-red-4k-37.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    color: orange;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    /* display: flex; */
+    flex-wrap: wrap;
+    font-size: 27px;
+   
+}
+
+.leftside{
+    flex: 30%;
+    background-color: aqua;
+    padding: 30px;
+    background-image: url(/html/wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    
+}
+
+.main{
+    flex: 70%;
+    background-color: rgba(255, 12, 12, 0.295);
+    flex-wrap: wrap;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.myphoto{
+    /* background-color: blue; */
+    width: 400px;
+    padding: 20px;
+    
+}
+
+.footer{
+    
+    /* padding: 15px; */
+    text-align: center;
+    background-color: purple;
+    /* width: 100%; */
+    font-size: 100px;
+    
+    
+    
+}
+
+*{
+    font-family: Space Mono, sans-serif;
+    
+}
+
+.about-me{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.myphoto img{
+    width: 400px;
+}
+
+.about-finance{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.fa{
+    /* padding: 15px; */
+    /* width: 50px; */
+    /* text-align: left; */
+    text-decoration: none;
+    /* font-size: 500px; */
+}
+
+.fa:hover{
+    opacity: 0.7;
+    
+}
+.fa-instagram{
+    color: #E1306C;
+
+}
+
+.fa-linkedin{
+    color: rgb(10, 102, 194)
+}
+
+.fa-github{
+    color: #181717;
+}
+
+
+
+.about-malaba{
+    display: flex;
+
+    /* gap: 5px; */
+    /* align-items: flex-start; */
+    /* justify-content: space-between; */
+    
+}
+
+
+/* .topdeck{
+    display: flex;
+
+} */
+
+.malabapic{
+    padding: 20px;
+}
+
+
+
