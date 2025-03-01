@@ -1,7 +1,21 @@
-.topnav{
+.topnav, .topdeck{
     background-color: purple;
     overflow: hidden;
+    /* position: fixed; */
+    /* width: 100vw;    */
+    /* max-width: 100%; */
+    /* display: flex;
+    flex-direction: row;  */
+    justify-content: space-between;
+    
+    
 }
+
+
+
+/* .topdeck{
+   
+} */
 
 .topnav a{
     float: left;
@@ -10,6 +24,7 @@
     font-size: 25px;
     text-decoration: none;
     padding: 14px 16px;
+    display: block;
 }
 
 .topnav a:hover{
@@ -37,23 +52,37 @@
     color: orange;
     /* display: flex; */
     /* flex-wrap: wrap; */
+    /* width: 100vw;   */
+    max-width: 100%; 
 
 }
 
-body{
+html, body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    /* overflow-x: hidden; */
+    width: 100vw;
+    /* height: 100vh; */ */
 }
 
 .row{
-    /* display: flex; */
+    display: flex;
     flex-wrap: wrap;
     font-size: 27px;
+    /* justify-content: center; */
+    align-items: left;
+    /* flex: auto; */
+    /* word-wrap: break-word;
+    overflow-wrap: break-word; */
+
    
 }
 
+
+
 .leftside{
-    flex: 30%;
+    flex: 10%;
     background-color: aqua;
     padding: 30px;
     background-image: url(./pics/wallpaperflare.com_wallpaper.jpg);
@@ -65,17 +94,19 @@ body{
 }
 
 .main{
-    flex: 70%;
+    flex: 90%;
     background-color: rgba(255, 12, 12, 0.295);
     flex-wrap: wrap;
     border-radius: 5%;
-    padding: 10px;
+    padding: 30px;
+    
 }
 
 .myphoto{
     /* background-color: blue; */
     width: 400px;
-    padding: 20px;
+    
+    /* padding: 20px; */
     
 }
 
@@ -110,6 +141,8 @@ body{
     display: flex;
     align-items: flex-start;
     gap: 20px;
+   
+    
 }
 
 .fa{
@@ -141,11 +174,19 @@ body{
 
 .about-malaba{
     display: flex;
+    flex-direction: row;
+    text-align: left;
 
     /* gap: 5px; */
     /* align-items: flex-start; */
     /* justify-content: space-between; */
     
+}
+
+.malaba1{
+    /* font-size: 5vw; */
+    max-width: 90vw;
+   
 }
 
 
